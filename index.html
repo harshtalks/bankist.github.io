@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="media.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="img/logo.png" alt="navbar logo" class="nav__logo" id="logo" />
+        <ul class="nav__links">
+          <img
+            class="hamburger"
+            src="https://img.icons8.com/material-outlined/24/000000/menu--v3.png"
+          />
+          <li class="nav__item">
+            <img
+              class="hamburger--close"
+              src="https://img.icons8.com/ios/50/000000/close-window.png"
+            />
+          </li>
+          <li class="nav__item"><a href="#section--1" class="nav__link">Features</a></li>
+          <li class="nav__item">
+            <a href="#section--2" class="nav__link">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--3" class="nav__link">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link-button btn__show--modal">Open Account</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__content">
+        <div class="left__header">
+          <h1>
+            When <span class="highlighted">Banking</span> meets <br />
+            <span class="highlighted">Minimalist</span>
+          </h1>
+          <p>A simpler banking experience for a simpler life</p>
+          <button class="scroll__down">Learn More &DownArrow;</button>
+        </div>
+        <div class="right__header">
+            <img src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items">
+        </div>
+    </header>
+    <section class="section section--1" id="section--1">
+        <div class="header__section">
+            <p class="section__discription">
+                Features
+            </p>
+            <h1 class="section__title">
+                Everything you need in a modern bank and more.
+            </h1>
+        </div>
+        <div class="features">
+            <img src="img/digital-lazy.jpg" alt="Computer" data-src = "img/digital.jpg" class="features__img lazy-img">
+            <div class="text__area">
+                <div class="icon__feature">
+                    <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+                </div>
+                <h5 class="features__header">
+                    100% Digital Bank
+                </h5>
+                <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+            </div>
+            <div class="text__area">
+          <div class="icon__feature ">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+            inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+            quibusdam!
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img Instant Loan"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="text__area">
+          <div class="icon__feature">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free debit card included</h5>
+          <p>
+            Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+            eveniet consequatur odit quam quos possimus assumenda dicta fuga
+            inventore ab.
+          </p>
+        </div>
+      </div>
+        </div>
+    </section>
+    <section class="section section--2" id="section--2">
+        <div class="header__section">
+            <p class="section__discription">
+                Operations
+            </p>
+            <h1 class="section__title">
+                Everything as simple as possible, but no simpler.
+            </h1>
+        </div>
+
+        <div class="operations">
+            <div class="operations__tab-container">
+                <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+                <span>01</span><span class="hide" >Instant Transfers</span></button>
+                <button class="btn operations__tab operations__tab--2"  data-tab="2">
+                <span>02</span><span class="hide">Instant Loans</span></button>
+                <button class="btn operations__tab operations__tab--3" data-tab="3">
+                <span>03</span><span class="hide" >Instant Closing</span></button>
+            </div>
+            <div class="operations__content operations__content--active operations__content--1">
+                <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <div class="text__content">
+              <h5 class="operations__header">
+            Tranfser money to anyone, instantly! No fees, no BS.
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          </div>
+          </div>
+           <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <div class="text__content">
+              <h5 class="operations__header">
+            Buy a home or make your dreams come true, with instant loans.
+          </h5>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+          </div>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+         <div class="text__content">
+              <h5 class="operations__header">
+            No longer need your account? No problem! Close it instantly.
+          </h5>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+         </div>
+        </div>
+        </div>
+    </section>
+    <section class="section section--3" id="section--3">
+        <div class="header__section">
+            <p class="section__discription">
+                Not Sure Yet?
+            </p>
+            <h1 class="section__title">
+                Millions of Bankists are already making their lifes simpler.
+            </h1>
+        </div>
+        <div class="slider">
+            <div class="slide">
+                <div class="testimonial">
+                    <h4 class="header__testimonial">
+                        Best financial decision ever!
+                    </h4>
+                    <blockquote class="testimonial__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non voluptatem saepe provident nihil molestiae.</blockquote>
+                    <address class="testimonial__author">
+                        <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <div class="name">
+                  <h6 class="testimonial__name">Abhinav Kapoor</h6>
+              <p class="testimonial__location">Ludhiana, IN</p>
+              </div>
+                    </address>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="testimonial">
+                    <h4 class="header__testimonial">
+                        Best financial decision ever!
+                    </h4>
+                    <blockquote class="testimonial__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non voluptatem saepe provident nihil molestiae.</blockquote>
+                    <address class="testimonial__author">
+                        <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+             <div class="name">
+                  <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">London, UK</p>
+             </div>
+                    </address>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="testimonial">
+                    <h4 class="header__testimonial">
+                        Best financial decision ever!
+                    </h4>
+                    <blockquote class="testimonial__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non voluptatem saepe provident nihil molestiae.</blockquote>
+                    <address class="testimonial__author">
+                        <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+             <div class="name">
+                  <h6 class="testimonial__name">John Kisan</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+             </div>
+                    </address>
+                </div>
+            </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+        </div>
+    </section>
+    <section class="section section__sign-up" id="sectione__sign-up">
+         <div class="header__section">
+            <h1 class="section__title">
+                Millions of Bankists are already making their lifes simpler.
+            </h1>
+        </div>
+        <div class="button__down-page">
+          <button class="btn btn__show--modal btn__sign-up">Open Your Account Today</button>
+        </div>
+    </section>
+    <section class="section footer">
+      <ul class="footer__links">
+        <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Pricing</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Terms of Use</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Policy</a></li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo">
+      <footer>&copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://twitter.com/jonasschmedtman"
+          >Jonas Schmedtmann</a
+        >. Use for learning or your portfolio. Don't use to teach. Don't claim
+        as your own product.</footer>
+    </section>
+
+    <!-- POP UP BOX -->
+    <div class="modal__box">
+       <img class="close__modal" src="https://img.icons8.com/ios-filled/50/000000/multiply.png"/>
+      <h1>Open Your Bank Account in just <br> <span class="highlighted">5 Minutes</span></h1>
+      <p>This is just a Practice Project and We are not accepting any new account registrations. <br>Please click on the button shown to proceed to Bankist WebApp to use all the services using demo accounts
+      <h3>Proceed to <span class="highlighted">BANKIST</span></h3>
+      <button class="btn linkedPage">Open Account</button>
+
+     
+    </div>
+
+    <div class="overlay hide-this"></div>
+  </body>
+</html>
